@@ -1,4 +1,6 @@
-connect the backend
+write schema 
+
+connect the backend 
 
 write the prediction model 
 
