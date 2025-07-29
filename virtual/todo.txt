@@ -1,0 +1,9 @@
+connect the backend
+
+write the prediction model 
+
+create the nextjs frontend 
+
+build handshake
+
+on the frontend fetch and request data
