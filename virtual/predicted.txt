@@ -1,0 +1,42 @@
+[
+    {
+        "year": 2008,
+        "predicted_price": 50420
+    },
+    {
+        "year": 2009,
+        "predicted_price": 60520
+    },
+    {
+        "year": 2010,
+        "predicted_price": 70620
+    },
+    {
+        "year": 2011,
+        "predicted_price": 80720
+    },
+    {
+        "year": 2012,
+        "predicted_price": 90820
+    },
+    {
+        "year": 2013,
+        "predicted_price": 100920
+    },
+    {
+        "year": 2014,
+        "predicted_price": 111020
+    },
+    {
+        "year": 2015,
+        "predicted_price": 121120
+    },
+    {
+        "year": 2016,
+        "predicted_price": 131220
+    },
+    {
+        "year": 2017,
+        "predicted_price": 141320
+    }
+]
