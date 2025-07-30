@@ -16,13 +16,3 @@ client=MongoClient(mongo_uri)
 db=client["MCP"]
 collection=db["datas"]
 
-def pushdatafortesting():
-    collection.insert_one({"name": "Roshan", "age": 21})
-    print("data pushed")
-
-def getdata():
-    collection.find_one({"name": "Roshan"})
-    for doc in collection.find():
-        print(doc)
-
-getdata()
