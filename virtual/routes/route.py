@@ -5,7 +5,8 @@ from schema.schema import list_serial
 from regression_model.predict_stream import start_data_monitor
 import threading
 from regression_model.regression_engine import predict_prices
-
+from config.database import db
+from schema.schema2 import list_serial
 
 router = APIRouter()
 
@@ -43,3 +44,10 @@ async def create_todo(todo: dict):
         print("🧠 Background monitor thread started...")
 
     return {"msg": "Todo added successfully!"}
+
+
+@router.get("/predictions")
+async def get_predictions():
+    predicted_collection = db["predicted-data"]  # 🌌 Collection name from Atlas
+    predicted_docs = list_serial(predicted_collection.find())  # 🧼 Clean data
+    return predicted_docs
