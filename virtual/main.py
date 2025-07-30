@@ -13,7 +13,7 @@ app.add_middleware(
 
 CORSMiddleware,
 
-allow_origins=["*"], # 👈 Your React/Next.js URL
+allow_origins=["*"], # universal acceptance 
 
 allow_credentials=True,
 

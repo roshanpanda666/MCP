@@ -1,42 +1,52 @@
 [
     {
-        "year": 2008,
-        "predicted_price": 50420
+        "house_no": "009",
+        "year": 2026,
+        "predicted_price": 2583333
     },
     {
-        "year": 2009,
-        "predicted_price": 60520
+        "house_no": "009",
+        "year": 2027,
+        "predicted_price": 2683333
     },
     {
-        "year": 2010,
-        "predicted_price": 70620
+        "house_no": "009",
+        "year": 2028,
+        "predicted_price": 2783333
     },
     {
-        "year": 2011,
-        "predicted_price": 80720
+        "house_no": "009",
+        "year": 2029,
+        "predicted_price": 2883333
     },
     {
-        "year": 2012,
-        "predicted_price": 90820
+        "house_no": "009",
+        "year": 2030,
+        "predicted_price": 2983333
     },
     {
-        "year": 2013,
-        "predicted_price": 100920
+        "house_no": "009",
+        "year": 2031,
+        "predicted_price": 3083333
     },
     {
-        "year": 2014,
-        "predicted_price": 111020
+        "house_no": "009",
+        "year": 2032,
+        "predicted_price": 3183333
     },
     {
-        "year": 2015,
-        "predicted_price": 121120
+        "house_no": "009",
+        "year": 2033,
+        "predicted_price": 3283333
     },
     {
-        "year": 2016,
-        "predicted_price": 131220
+        "house_no": "009",
+        "year": 2034,
+        "predicted_price": 3383333
     },
     {
-        "year": 2017,
-        "predicted_price": 141320
+        "house_no": "009",
+        "year": 2035,
+        "predicted_price": 3483333
     }
 ]

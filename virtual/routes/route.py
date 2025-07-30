@@ -7,6 +7,7 @@ import threading
 from regression_model.regression_engine import predict_prices
 from config.database import db
 from schema.schema2 import list_serial
+from pymongo import DESCENDING
 
 router = APIRouter()
 
@@ -51,3 +52,17 @@ async def get_predictions():
     predicted_collection = db["predicted-data"]  # 🌌 Collection name from Atlas
     predicted_docs = list_serial(predicted_collection.find())  # 🧼 Clean data
     return predicted_docs
+
+from pymongo import DESCENDING
+
+@router.get("/predictions-ten")
+async def get_last_10_predictions():
+    predicted_collection = db["predicted-data"]
+
+    # 🔥 Sort by _id to get the last 10 inserted entries
+    predicted_docs = list_serial(
+        predicted_collection.find().sort("_id", DESCENDING).limit(10)
+    )
+
+    # 🔁 Reverse to get in chronological order
+    return predicted_docs[::-1]

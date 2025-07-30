@@ -2,10 +2,10 @@ import requests
 
 # POST
 todo = {
-    "house": "001",
-    "price1": "30200",
-    "price2": "50060",
-    "price3": "70400",
+    "house": "005",
+    "price1": "302200",
+    "price2": "502060",
+    "price3": "702400",
     "year1": "2008",
     "year2": "2009",
     "year3": "2010",
