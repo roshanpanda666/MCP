@@ -66,3 +66,4 @@ async def get_last_10_predictions():
 
     # 🔁 Reverse to get in chronological order
     return predicted_docs[::-1]
+

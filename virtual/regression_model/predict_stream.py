@@ -16,3 +16,5 @@ def start_data_monitor(callback_function):
                 callback_function(new_data)
     except Exception as e:
         print(f"❌ Error in data monitor: {e}")
+
+
