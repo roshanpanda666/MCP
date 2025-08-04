@@ -11,7 +11,7 @@ from pymongo import DESCENDING
 
 router = APIRouter()
 
-# ✅ Define your prediction handler here
+# Define prediction handler here
 def on_new_data(data):
     print("🚀 Detected new data in DB:", data)
     # 🔮 Replace this with your actual prediction logic
